@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+.container {
+  width: 640px;
+  margin: auto;
+  margin-top: 150px;
+  background: white;
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 40px 50px;
+}
+.container h1 {
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  color: #58cc02;
+}
+
+.container hr {
+  height: 2px;
+  color: #707070;
+}
+
+.container h2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.container ul li {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding-left: 15px;
+  border: 1px solid #686868;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container button {
+  margin: auto;
+  width: 250px;
+  height: 50px;
+  background: #58cc02;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Nunito", sans-serif;
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+
+  text-align: center;
+}
+.container .index {
+  margin: auto;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  margin-top: 10px;
+}
+
+.container li.correct {
+  background: #bdf195;
+  color: rgb(0, 0, 0);
+  border: #bdf195;
+}
+
+.container li.wrong {
+  background: #f0b7b7;
+  border: #f0b7b7;
+  color: rgb(0, 0, 0);
+}
+
+.result-dec {
+  text-align: center;
+  margin-bottom: 15px;
+  
+}

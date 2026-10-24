@@ -1,21 +1,21 @@
-<<<<<<< HEAD
-# React + Vite
+# React Quiz App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive quiz application built with React. Test your JavaScript knowledge with multiple-choice questions, instant feedback, and score tracking.
 
-Currently, two official plugins are available:
+## Features
+- Multiple-choice questions
+- Instant answer feedback
+- Score tracking
+- Progress indicator
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React
+- JavaScript
+- CSS
 
-## React Compiler
+## Run Locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+npm install
+npm run dev
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Quiz-App
-A React-based quiz app with multiple-choice questions, answer validation, score tracking, and interactive UI.
->>>>>>> 9c2df9a58e9ac0a35559e0e1aac474ebefe8516e
